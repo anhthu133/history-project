@@ -26,9 +26,7 @@ const Hero = () => {
         {heros.map((hero) => (
           <CharacterCard
             key={hero.id}
-            img={
-              "https://cand.com.vn/Files/Image/thanhbinh/2020/01/20/eab955b3-4d93-4419-adab-1551091a17b9.jpg"
-            }
+            img={hero.imgUrl[0]}
             id={hero.id}
             title={hero.ten}
             description={hero.caunoinoitieng[0].noidung}

@@ -1,6 +1,10 @@
 export const haiBaTrung = {
   id: 1,
   ten: "Hai Bà Trưng",
+  imgUrl: [
+    "https://utfs.io/f/399ef8ad-e58f-4b07-9a50-628c296ddc51-dbut89.jpg",
+    "https://utfs.io/f/47a34ae8-d7c6-4b17-a1ab-2815b79c8bd6-dahste.jpg",
+  ],
   ngaysinh: "Năm 14 (SCN) - Năm 43 (SCN)",
   thongtinchung: [
     "Giai đoạn: Bắc thuộc lần 1",
@@ -46,6 +50,10 @@ export const haiBaTrung = {
 export const ngoQuyen = {
   id: 2,
   ten: "NGÔ QUYỀN  ",
+  imgUrl: [
+    "https://utfs.io/f/d7528db6-6190-43f6-ab24-59fe1b385d7b-1orlju.jpg",
+    "https://utfs.io/f/0b090a8c-23b9-4d98-b05c-f34aabbc9bb8-c1nmpt.jpg",
+  ],
   ngaysinh: "17/04/898 - 14/02/944  ",
   thongtinchung: [
     "Giai đoạn: từ 932 - 938    ",
@@ -89,6 +97,10 @@ export const ngoQuyen = {
 export const lyThuongKiet = {
   id: 3,
   ten: "LÝ THƯỜNG KIỆT  ",
+  imgUrl: [
+    "https://utfs.io/f/dd1424ef-fe2e-440e-afb4-1dda6d1d6ecc-69jc6c.jpg",
+    "https://utfs.io/f/59e4bbb7-f7c6-41a3-8f72-057b2d639f7c-sd3tu5.jpg",
+  ],
   ngaysinh: "1019 - 1105  ",
   thongtinchung: [
     "Giai đoạn: Nhà Lý (1009 - 1225)    ",
@@ -140,6 +152,10 @@ export const lyThuongKiet = {
 export const tranQuocTuan = {
   id: 4,
   ten: "TRẦN QUỐC TUẤN  ",
+  imgUrl: [
+    "https://utfs.io/f/ed6b60d8-335d-4baf-a633-f245181708bb-vzy1b4.jpg",
+    "https://utfs.io/f/aeaaa368-71c1-43a0-8cae-a53195323bce-1ipr7p.jpg",
+  ],
   ngaysinh: "1226 - 1300  ",
   thongtinchung: [
     "Giai đoạn: Nhà Trần (1226 - 1400    ",
@@ -191,6 +207,10 @@ export const tranQuocTuan = {
 export const tranQuocToan = {
   id: 5,
   ten: "TRẦN QUỐC TOẢN  ",
+  imgUrl: [
+    "https://utfs.io/f/f1db7787-b5a5-4ff8-91ea-a78e60771887-5kpfgl.jpg",
+    "https://utfs.io/f/cf8dbee9-c472-4460-95d5-7146c1701893-tcsz79.jpg",
+  ],
   ngaysinh: "1267 - 1285  ",
   thongtinchung: ["Kháng chiến: (chống) quân Mông Nguyên    "],
   vitri: [
@@ -227,6 +247,10 @@ export const tranQuocToan = {
 export const quangTrung = {
   id: 6,
   ten: "QUANG TRUNG (NGUYỄN HUỆ)",
+  imgUrl: [
+    "https://utfs.io/f/5fdfcdd1-ffdd-45e1-ad4a-e4c1f233ee95-en92uf.jpg",
+    "https://utfs.io/f/16da76a7-0fe3-4a49-93dd-8483394c9a5b-sxq9g3.jpg",
+  ],
   ngaysinh: "1753 - 1792  ",
   thongtinchung: [
     "Triều đại: Nhà Tây Sơn  ",

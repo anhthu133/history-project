@@ -11,7 +11,7 @@ const CharacterCard = ({ img, title, id, description }) => {
           width={500}
           height={500}
           alt="historical character"
-          className="w-full object-cover h-auto rounded-lg"
+          className="w-full object-cover object-top h-[200px] rounded-lg"
         />
         <div className="p-2">
           <p className="text-xl mt-3 font-semibold text-slate-500">{title}</p>

@@ -11,8 +11,8 @@ const CV = ({ hero }) => {
         <Image
           height={500}
           alt="historical character"
-          className="w-full h-48 object-cover rounded-lg md:col-span-2 col-span-full"
-          src="https://cand.com.vn/Files/Image/thanhbinh/2020/01/20/eab955b3-4d93-4419-adab-1551091a17b9.jpg"
+          className="w-full h-48 object-cover object-top rounded-lg md:col-span-2 col-span-full"
+          src={parsedHero.imgUrl[1]}
           width={400}
         />
         <div className="w-full md:col-span-3 col-span-full p-3 bg-[#fefae0]">
