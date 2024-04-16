@@ -14,7 +14,7 @@ const CharacterCard = ({ img, title, id, description }) => {
           className="w-full object-cover object-top h-[200px] rounded-lg"
         />
         <div className="p-2">
-          <p className="text-xl mt-3 font-semibold text-slate-500">{title}</p>
+          <p className="uppercase text-xl mt-3 font-semibold text-slate-500">{title}</p>
           <p className="text-sm mt-3 font-normal text-slate-400 truncate">
             {description}
           </p>

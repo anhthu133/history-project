@@ -16,7 +16,7 @@ const CV = ({ hero }) => {
           width={400}
         />
         <div className="w-full md:col-span-3 col-span-full p-3 bg-[#fefae0]">
-          <p className="text-3xl font-semibold text-[#d4a373]">
+          <p className="uppercase text-3xl font-semibold text-[#d4a373]">
             {parsedHero.ten}
           </p>
 
