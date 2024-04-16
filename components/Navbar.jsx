@@ -11,13 +11,13 @@ const Navbar = () => {
         <h1 className="font-semibold text-slate-600 text-2xl">CVLS</h1>
       </Link>
       <ul className="flex items-center gap-5 font-medium text-slate-600">
-        <li className="hover:underline">
+        <li className="hover:underline whitespace-nowrap  text-xs">
           <Link href={"/"}>Trang chủ</Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline whitespace-nowrap text-xs">
           <Link href={"#"}>Nhân vật </Link>
         </li>
-        <li className="hover:underline">
+        <li className="hover:underline whitespace-nowrap text-xs">
           <Link href={"#"}>Sự kiện </Link>
         </li>
       </ul>
