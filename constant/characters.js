@@ -6,12 +6,12 @@ export const haiBaTrung = {
         'Nhà chính trị',
         'Nhà vua',
         'Nhà chính trị',
-        'Nhà xã hội học'
+        'Nhà xã hội học''
        
     ],
     congtrang:[
         {
-            nam:'2012-2013',
+            nam:'2012-2016',
             noidung:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab deleniti dolorum repellat, dignissimos ullam praesentium tempora iusto nesciunt modi?'
         },
         {
