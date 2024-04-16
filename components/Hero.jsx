@@ -15,8 +15,7 @@ const Hero = () => {
           Website là đơn vị cung cấp thông tin lịch sử mang mục đích giáo dục và
           phi lợi nhuận. CVLS có thể coi như là một thư viện lưu trữ những bản
           sơ yếu lý lịch (CV - Curriculum Vitae) của những con người và sự kiện
-          thuộc về quá khứ.<br/>
-          Chúng tôi đem đến một nguồn tài nguyên tham khảo
+          thuộc về quá khứ. Chúng tôi đem đến một nguồn tài nguyên tham khảo
           miễn phí và úy tín dành cho tất cả mọi người.
         </p>
       </div>
