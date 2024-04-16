@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const CharacterCard = ({ img, title, description }) => {
+const CharacterCard = ({ img, title, id, description }) => {
   return (
-    <Link href="/characters/1" className="flex justify-center">
+    <Link href={`/characters/${id}`} className="flex justify-center">
       <div className="w-full border border-slate-200 rounded-lg">
         <Image
           src={img}

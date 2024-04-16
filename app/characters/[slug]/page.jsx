@@ -1,10 +1,17 @@
-import CV from '@/components/CV'
-import React from 'react'
+import CV from "@/components/CV";
+import { heros } from "@/constant/characters";
+import React from "react";
 
-const Page = () => {
+const Page = ({ params }) => {
+  const res = heros.find((hero) => {
+    return hero.id === parseInt(params.slug);
+  });
+  console.log(res);
   return (
-    <div><CV/></div>
-  )
-}
+    <div>
+      <CV hero={JSON.stringify(res)} />
+    </div>
+  );
+};
 
-export default Page
+export default Page;

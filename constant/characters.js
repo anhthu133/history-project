@@ -1,34 +1,35 @@
 export const haiBaTrung = {
+  id: 1,
   ten: "Hai Bà Trưng",
   ngaysinh: "Năm 14 (SCN) - Năm 43 (SCN)",
   thongtinchung: [
-    "Giai đoạn: Bắc thuộc lần 1  ",
+    "Giai đoạn: Bắc thuộc lần 1",
     "Khởi nghĩa: (chống lại) Nhà Đông Hán (Trung Quốc)",
   ],
   vitri: ["Trưng Trắc: Nữ vương (tự phong)"],
-  ditich: ["Di tích Quốc gia nằm tại thôn Hạ Lôi, xã Mê Linh, Hà Nội.  "],
+  ditich: ["Di tích Quốc gia nằm tại thôn Hạ Lôi, xã Mê Linh, Hà Nội."],
   donggop: [
     {
-      nam: "2012-2016",
+      nam: "1",
       noidung:
         "Năm 40: Khởi nghĩa ở Hát Môn (Phúc Thọ, Hà Nội), lãnh đạo nhân dân đứng lên khởi nghĩa, giành độc lập cho dân tộc sau hơn 2 thế kỉ bị đô hộ.",
     },
     {
-      nam: "2012-2013",
+      nam: "2",
       noidung:
-        "Bước đầu xây dựng chính quyền tự chủ, ban hành một số chính sách tiến bộ.        ",
+        "Bước đầu xây dựng chính quyền tự chủ, ban hành một số chính sách tiến bộ.",
     },
     {
-      nam: "2012-2013",
+      nam: "3",
       noidung:
         "Thể hiện vai trò và phẩm chất của người phụ nữ Việt Nam trong công cuộc dựng nước và giữ nước.",
     },
   ],
   caunoinoitieng: [
     {
-      nam: "2012-2016",
+      nam: "1",
       noidung:
-        "Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng / Ba kẻo oan ức lòng chồng / Bốn xin vỏn vẹn sở công lênh này.        ",
+        "Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng / Ba kẻo oan ức lòng chồng / Bốn xin vỏn vẹn sở công lênh này.    ",
     },
   ],
   duonglinkvideo: [
@@ -42,3 +43,239 @@ export const haiBaTrung = {
   ],
 };
 // -----------------------------
+export const ngoQuyen = {
+  id: 2,
+  ten: "NGÔ QUYỀN  ",
+  ngaysinh: "17/04/898 - 14/02/944  ",
+  thongtinchung: [
+    "Giai đoạn: từ 932 - 938    ",
+    "Kháng chiến: (chống) quân Nam Hán     ",
+  ],
+  vitri: [
+    "Thuộc tướng của Dương Đình Nghệ   ",
+    "Vị vua đầu tiên của triều đại Ngô  ",
+  ],
+
+  donggop: [
+    {
+      nam: "1",
+      noidung:
+        "Năm 938, lãnh đạo nhân dân đánh bại quân Nam Hán trong trận Bạch Đằng        ",
+    },
+    {
+      nam: "2",
+      noidung:
+        "Xưng vương, dựng nên triều Ngô mở ra một thời kì độc lập lâu dài của Việt Nam.        ",
+    },
+  ],
+  caunoinoitieng: [
+    {
+      nam: "1",
+      noidung:
+        "Hoằng Tháo là đứa trẻ khờ dại, đem quân từ xa đến, quân lính còn mỏi mệt, lại nghe Công Tiễn đã chết, không có người làm nội ứng, đã mất vía trước rồi. Quân ta lấy sức khỏe địch với quân mỏi mệt, tất phá được",
+    },
+  ],
+  duonglinkvideo: [
+    "https://youtu.be/ZPIUuLtRUFY",
+    "https://youtu.be/EOXIbp5ux4w",
+    "https://youtu.be/na_M-UWYJQs",
+  ],
+  duonglinkbaiviet: [
+    "https://baotanglichsu.vn/vi/Articles/3098/13934/ngo-quyen-va-chien-thang-bach-djang-nam-938.html    ",
+    "https://nhandan.vn/khang-dinh-cong-lao-cua-ngo-quyen-voi-su-nghiep-trung-hung-dat-nuoc-post353460.html    ",
+    "https://nhandan.vn/ton-vinh-nhung-dong-gop-cua-duc-vua-ngo-quyen-voi-dat-nuoc-post619257.html    ",
+  ],
+};
+export const lyThuongKiet = {
+  id: 3,
+  ten: "LÝ THƯỜNG KIỆT  ",
+  ngaysinh: "1019 - 1105  ",
+  thongtinchung: [
+    "Giai đoạn: Nhà Lý (1009 - 1225)    ",
+    "Kháng chiến: (chống) quân Tống lần 2    ",
+  ],
+  vitri: [
+    "Danh tướng, đại thần nhà Lý    ",
+    "Tổng trấn Thanh Hóa    ",
+    "Nhà quân sự    ",
+    "Nhà chính trị     ",
+    "Thái úy thời Lý     ",
+  ],
+
+  donggop: [
+    {
+      nam: "1",
+      noidung:
+        "Lập công lớn trong cuộc kháng chiến chống Tống lần thứ 2 (1075 - 1077)        ",
+    },
+    {
+      nam: "2",
+      noidung:
+        "Lập công lớn trong cuộc phá Tống bình Chiêm, bảo vệ vững chắc nền độc lập nước nhà.        ",
+    },
+    {
+      nam: "3",
+      noidung:
+        "Góp phần xây dựng vương triều nhà Lý đạt được nhiều thành tựu.        ",
+    },
+  ],
+  caunoinoitieng: [
+    {
+      nam: "1",
+      noidung:
+        "Ngồi yên đợi giặc không bằng đem quân ra trước, chặn thế mạnh của giặc",
+    },
+  ],
+  duonglinkvideo: [
+    "https://youtu.be/AbRg5rH6fxo",
+    "https://youtu.be/TQehUlbyp3o",
+    "https://youtu.be/c1aKcDx2FI4",
+  ],
+  duonglinkbaiviet: [
+    "https://baotanglichsu.vn/vi/Articles/3096/8270/ly-thuong-kiet-noi-kinh-hoang-cua-quan-tong.html    ",
+    "https://kinhtedothi.vn/thong-diep-tu-lich-su-ly-thuong-kiet-lay-tan-cong-lam-phong-thu.html    ",
+    "https://vnmh.com.vn/vi/Articles/3098/16192/ly-thuong-kiet-nguoi-chi-huy-kiet-xuat-cua-cuoc-khang-chien-chong-quan-tong-lan-thu-hai.html    ",
+  ],
+};
+export const tranQuocTuan = {
+  id: 4,
+  ten: "TRẦN QUỐC TUẤN  ",
+  ngaysinh: "1226 - 1300  ",
+  thongtinchung: [
+    "Giai đoạn: Nhà Trần (1226 - 1400    ",
+    " Kháng chiến: (chống) quân Mông Nguyên    ",
+  ],
+  vitri: [
+    "nhà chính trị    ",
+    "nhà quân sự    ",
+    "tôn thất hoàng gia Đại   ",
+    "Việt thời Trần   ",
+  ],
+
+  donggop: [
+    {
+      nam: "1",
+      noidung:
+        "Năm 1285: Đánh tan cuộc xâm lược của quân Nguyên – Mông lần thứ hai        ",
+    },
+    {
+      nam: "2",
+      noidung:
+        "Năm 1288: Đánh tan cuộc xâm lược của quân Nguyên – Mông lần thứ ba        ",
+    },
+    {
+      nam: "3",
+      noidung: "Để lại nhiều nghệ thuật quân sự độc đáo        ",
+    },
+  ],
+  caunoinoitieng: [
+    {
+      nam: "1",
+      noidung:
+        "Khoan thư sức dân để làm kế sâu rễ bền gốc, đó là thượng sách giữ nước muôn đời vậy",
+    },
+  ],
+  duonglinkvideo: [
+    "https://youtu.be/XVjgZa0duCc",
+    "https://youtu.be/6OQ4xmD4HVM",
+    "https://youtu.be/SW9Evqcvlek",
+  ],
+  duonglinkbaiviet: [
+    "http://danvan.vn/Home/MagazineStory?ID=410    ",
+    "https://www.bienphong.com.vn/binh-thu-yeu-luoc-cua-tran-hung-dao-ban-ve-phep-hanh-quan-post385218.html    ",
+    "https://nhandan.vn/hung-dao-dai-vuong-tran-quoc-tuan-anh-hung-dan-toc-kiet-xuat-post415868.html    ",
+    "https://redsvn.net/chien-luoc-cua-tran-hung-dao-khi-doi-pho-voi-ke-thu-hung-manh-hon2/    ",
+  ],
+};
+
+export const tranQuocToan = {
+  id: 5,
+  ten: "TRẦN QUỐC TOẢN  ",
+  ngaysinh: "1267 - 1285  ",
+  thongtinchung: ["Kháng chiến: (chống) quân Mông Nguyên    "],
+  vitri: [
+    "Tước hiệu: Hoài Văn Hầu    ",
+    "Tông thất nhà Trần    ",
+    "tôn thất hoàng gia Đại   ",
+    "Việt thời Trần   ",
+  ],
+  ditich: ["Bến Bình Than   "],
+  donggop: [
+    {
+      nam: "1",
+      noidung:
+        "Trực tiếp chỉ huy đội quân hơn 1000 người sát cánh chiến đấu với quân chủ lực của triều đình góp phần làm nên những chiến thắng vang dội ở Hàm Tử, Tây Kết, Chương Dương. Giặc Mông - Nguyên phải bỏ Thăng Long, chạy về Kinh Bắc (Bắc Ninh) để tìm đường về nước.        ",
+    },
+  ],
+  caunoinoitieng: [
+    {
+      nam: "1",
+      noidung: "Phá cường địch, báo hoàng ân        ",
+    },
+  ],
+  duonglinkvideo: [
+    "https://youtu.be/Wf7_V6Swr1c",
+    "https://youtu.be/pxbC0rKbXWY",
+    "https://youtu.be/Vt6frPcNkAI",
+  ],
+  duonglinkbaiviet: [
+    "https://kinhtedothi.vn/thong-diep-tu-lich-su-tran-quoc-toan-anh-hung-nhieu-bi-an.html    ",
+    "https://hoangthanhthanglong.vn/blog/2023/05/15/tran-quoc-toan-15-tuoi-quyet-pha-cuong-dich/    ",
+    "https://thanhnien.vn/qua-cam-tran-quoc-toan-18576375.htm   ",
+  ],
+};
+export const quangTrung = {
+  id: 6,
+  ten: "QUANG TRUNG (NGUYỄN HUỆ)",
+  ngaysinh: "1753 - 1792  ",
+  thongtinchung: [
+    "Triều đại: Nhà Tây Sơn  ",
+    "Kháng chiến: (chống) quân Xiêm 1784-1785, quân Thanh 1788-1789  ",
+  ],
+  vitri: ["nhà chính trị    ", "nhà quân sự    ", "Hoàng đế nhà Tây Sơn     "],
+
+  donggop: [
+    {
+      nam: "1",
+      noidung:
+        "Lãnh đạo của cuộc khởi nghĩa Tây Sơn chấm dứt cuộc nội chiến Trịnh – Nguyễn phân tranh giữa hai tập đoàn phong kiến Trịnh ở phía bắc và Nguyễn ở phía nam. Bước đầu thống nhất đất nước về mặt lãnh thổ        ",
+    },
+    {
+      nam: "2",
+      noidung:
+        "Đánh bại các cuộc xâm lược Đại Việt của Xiêm La từ phía nam, của Đại Thanh từ phía bắc.        ",
+    },
+    {
+      nam: "3",
+      noidung:
+        "Xây dựng vương triều Tây Sơn với nhiều chính sách tiến bộ.        ",
+    },
+  ],
+  caunoinoitieng: [
+    {
+      nam: "1",
+      noidung:
+        "Đánh cho để dài tóc/ Đánh cho để đen răng/ Đánh cho nó trích luân bất phản/ Đánh cho nó phiến giáp bất hoàn/ Đánh cho sử tri  Nam quốc anh hùng chi hữu chủ      ",
+    },
+  ],
+  duonglinkvideo: [
+    "https://youtu.be/x3lnii_J9jk",
+    "https://youtu.be/mqsiVF8qCag",
+    "https://youtu.be/97AmTSAZwP4",
+    "https://youtu.be/HD89UaWkVQk",
+    "https://youtu.be/thk1k_jOGEs",
+  ],
+  duonglinkbaiviet: [
+    "https://baochinhphu.vn/dai-pha-quan-thanh-giai-phong-thang-long-10230972.htm    ",
+    "https://www.qdnd.vn/van-hoa/doi-song/quang-trung-nguyen-hue-va-loi-hich-vang-vong-nui-song-651655    ",
+    "https://www.qdnd.vn/quoc-phong-an-ninh/nghe-thuat-quan-su-vn/thien-tai-quan-su-cua-hoang-de-quang-trung-nguyen-hue-654713    ",
+  ],
+};
+export const heros = [
+  haiBaTrung,
+  ngoQuyen,
+  lyThuongKiet,
+  tranQuocTuan,
+  tranQuocToan,
+  quangTrung,
+];

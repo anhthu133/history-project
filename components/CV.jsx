@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { haiBaTrung } from "@/constant/characters";
+import { parsedHero } from "@/constant/characters";
 
-const CV = () => {
+const CV = ({ hero }) => {
+  const parsedHero = JSON.parse(hero);
   return (
     <>
       <div className="grid grid-cols-5 w-full gap-x-5 gap-y-5 max-w-[600px] mx-auto">
@@ -16,11 +17,11 @@ const CV = () => {
         />
         <div className="w-full md:col-span-3 col-span-full p-3 bg-[#fefae0]">
           <p className="text-3xl font-semibold text-[#d4a373]">
-            {haiBaTrung.ten}
+            {parsedHero.ten}
           </p>
 
           <p className="text-sm font-semibold mt-1 text-slate-500">
-            {haiBaTrung.ngaysinh}
+            {parsedHero.ngaysinh}
           </p>
           <div>
             <p className="text-md mt-5 font-semibold text-slate-500">
@@ -28,7 +29,7 @@ const CV = () => {
             </p>
             <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
             <ul>
-              {haiBaTrung.thongtinchung.map((detail) => (
+              {parsedHero.thongtinchung.map((detail) => (
                 <li key={detail}>
                   <p className="text-xs text-slate-600 mt-3 font-normal ">
                     {" "}
@@ -44,13 +45,13 @@ const CV = () => {
             <p className="text-lg font-semibold text-[#d4a373] ">Vị trí</p>
             <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
             <ul className="mt-5">
-              {haiBaTrung.vitri.map((vitri) => (
+              {parsedHero.vitri.map((vitri) => (
                 <li key={Math.random()}>
                   <p className="text-slate-700 text-xs"> • {vitri}</p>
                 </li>
               ))}
             </ul>
-            {haiBaTrung.ditich ? (
+            {parsedHero.ditich ? (
               <>
                 {" "}
                 <p className="text-lg font-semibold mt-5 text-[#d4a373] ">
@@ -58,7 +59,7 @@ const CV = () => {
                 </p>
                 <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
                 <ul className="mt-5">
-                  {haiBaTrung.ditich.map((ditich) => (
+                  {parsedHero.ditich.map((ditich) => (
                     <li key={Math.random()}>
                       <p className="text-slate-700 text-xs"> • {ditich}</p>
                     </li>
@@ -71,7 +72,7 @@ const CV = () => {
             <h1 className="text-lg font-semibold text-[#d4a373]">Video</h1>
             <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
             <ul>
-              {haiBaTrung.duonglinkvideo.map((link) => (
+              {parsedHero.duonglinkvideo.map((link) => (
                 <li key={link}>
                   <a href={link} target="_blank" className=" text-cyan-400">
                     <p className="truncate">{link}</p>
@@ -84,7 +85,7 @@ const CV = () => {
             </h1>
             <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
             <ul>
-              {haiBaTrung.duonglinkbaiviet.map((link) => (
+              {parsedHero.duonglinkbaiviet.map((link) => (
                 <li key={link}>
                   <a href={link} target="_blank" className=" text-cyan-400">
                     <p className="truncate">{link}</p>
@@ -99,7 +100,7 @@ const CV = () => {
           <p className="text-lg font-semibold text-[#d4a373] ">Đóng góp</p>
           <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
           <ul className="mt-3  flex flex-col gap-5">
-            {haiBaTrung.donggop.map((donggop) => (
+            {parsedHero.donggop.map((donggop) => (
               <li key={donggop.nam}>
                 <p className="font-normal text-xs text-slate-700">
                   • {donggop.noidung}
@@ -113,7 +114,7 @@ const CV = () => {
           </p>
           <div className="w-10 h-[1px] bg-[#e9edc9] mt-1 "></div>
           <ul className="mt-3  flex flex-col gap-5">
-            {haiBaTrung.caunoinoitieng.map((congtrang) => (
+            {parsedHero.caunoinoitieng.map((congtrang) => (
               <li key={congtrang.nam}>
                 <p className="font-normal italic text-xs text-slate-700">
                   {congtrang.noidung}
