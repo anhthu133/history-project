@@ -159,13 +159,12 @@ export const tranQuocTuan = {
   ngaysinh: "1226 - 1300  ",
   thongtinchung: [
     "Giai đoạn: Nhà Trần (1226 - 1400)",
-    " Kháng chiến: (chống) quân Mông Nguyên",
+    "Kháng chiến: (chống) quân Mông Nguyên",
   ],
   vitri: [
     "Nhà chính trị    ",
     "Nhà quân sự    ",
-    "Tôn thất hoàng gia Đại   ",
-    "Việt thời Trần   ",
+    "Tôn thất hoàng gia Đại Việt thời Trần",
   ],
 
   donggop: [
@@ -216,10 +215,9 @@ export const tranQuocToan = {
   vitri: [
     "Tước hiệu: Hoài Văn Hầu    ",
     "Tông thất nhà Trần    ",
-    "Tôn thất hoàng gia Đại   ",
-    "Việt thời Trần   ",
+    "Tôn thất hoàng gia Đại Việt thời Trần",
   ],
-  ditich: ["Bến Bình Than   "],
+  ditich: ["Bến Bình Than"],
   donggop: [
     {
       nam: "1",
