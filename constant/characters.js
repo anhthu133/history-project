@@ -11,22 +11,22 @@ export const haiBaTrung = {
     "Khởi nghĩa: (chống lại) Nhà Đông Hán (Trung Quốc)",
   ],
   vitri: ["Trưng Trắc: Nữ vương (tự phong)"],
-  ditich: ["Di tích Quốc gia nằm tại thôn Hạ Lôi, xã Mê Linh, Hà Nội."],
+  ditich: ["Di tích Quốc gia nằm tại thôn Hạ Lôi, xã Mê Linh, Hà Nội"],
   donggop: [
     {
       nam: "1",
       noidung:
-        "Năm 40: Khởi nghĩa ở Hát Môn (Phúc Thọ, Hà Nội), lãnh đạo nhân dân đứng lên khởi nghĩa, giành độc lập cho dân tộc sau hơn 2 thế kỉ bị đô hộ.",
+        "Năm 40: Khởi nghĩa ở Hát Môn (Phúc Thọ, Hà Nội), lãnh đạo nhân dân đứng lên khởi nghĩa, giành độc lập cho dân tộc sau hơn 2 thế kỉ bị đô hộ",
     },
     {
       nam: "2",
       noidung:
-        "Bước đầu xây dựng chính quyền tự chủ, ban hành một số chính sách tiến bộ.",
+        "Bước đầu xây dựng chính quyền tự chủ, ban hành một số chính sách tiến bộ",
     },
     {
       nam: "3",
       noidung:
-        "Thể hiện vai trò và phẩm chất của người phụ nữ Việt Nam trong công cuộc dựng nước và giữ nước.",
+        "Thể hiện vai trò và phẩm chất của người phụ nữ Việt Nam trong công cuộc dựng nước và giữ nước",
     },
   ],
   caunoinoitieng: [
@@ -56,7 +56,7 @@ export const ngoQuyen = {
   ],
   ngaysinh: "17/04/898 - 14/02/944  ",
   thongtinchung: [
-    "Giai đoạn: từ 932 - 938    ",
+    "Giai đoạn: từ năm 932 - 938    ",
     "Kháng chiến: (chống) quân Nam Hán     ",
   ],
   vitri: [
@@ -68,12 +68,12 @@ export const ngoQuyen = {
     {
       nam: "1",
       noidung:
-        "Năm 938, lãnh đạo nhân dân đánh bại quân Nam Hán trong trận Bạch Đằng        ",
+        "Năm 938, lãnh đạo nhân dân đánh bại quân Nam Hán trong trận Bạch Đằng",
     },
     {
       nam: "2",
       noidung:
-        "Xưng vương, dựng nên triều Ngô mở ra một thời kì độc lập lâu dài của Việt Nam.        ",
+        "Xưng vương, dựng nên triều Ngô mở ra một thời kì độc lập lâu dài của Việt Nam ",
     },
   ],
   caunoinoitieng: [
@@ -96,7 +96,7 @@ export const ngoQuyen = {
 };
 export const lyThuongKiet = {
   id: 3,
-  ten: "LÝ THƯỜNG KIỆT  ",
+  ten: "LÝ THƯỜNG KIỆT",
   imgUrl: [
     "https://utfs.io/f/dd1424ef-fe2e-440e-afb4-1dda6d1d6ecc-69jc6c.jpg",
     "https://utfs.io/f/59e4bbb7-f7c6-41a3-8f72-057b2d639f7c-sd3tu5.jpg",
@@ -118,17 +118,17 @@ export const lyThuongKiet = {
     {
       nam: "1",
       noidung:
-        "Lập công lớn trong cuộc kháng chiến chống Tống lần thứ 2 (1075 - 1077)        ",
+        "Lập công lớn trong cuộc kháng chiến chống Tống lần thứ 2 (1075 - 1077)",
     },
     {
       nam: "2",
       noidung:
-        "Lập công lớn trong cuộc phá Tống bình Chiêm, bảo vệ vững chắc nền độc lập nước nhà.        ",
+        "Lập công lớn trong cuộc phá Tống bình Chiêm, bảo vệ vững chắc nền độc lập nước nhà",
     },
     {
       nam: "3",
       noidung:
-        "Góp phần xây dựng vương triều nhà Lý đạt được nhiều thành tựu.        ",
+        "Góp phần xây dựng vương triều nhà Lý đạt được nhiều thành tựu",
     },
   ],
   caunoinoitieng: [
@@ -158,13 +158,13 @@ export const tranQuocTuan = {
   ],
   ngaysinh: "1226 - 1300  ",
   thongtinchung: [
-    "Giai đoạn: Nhà Trần (1226 - 1400    ",
-    " Kháng chiến: (chống) quân Mông Nguyên    ",
+    "Giai đoạn: Nhà Trần (1226 - 1400)",
+    " Kháng chiến: (chống) quân Mông Nguyên",
   ],
   vitri: [
-    "nhà chính trị    ",
-    "nhà quân sự    ",
-    "tôn thất hoàng gia Đại   ",
+    "Nhà chính trị    ",
+    "Nhà quân sự    ",
+    "Tôn thất hoàng gia Đại   ",
     "Việt thời Trần   ",
   ],
 
@@ -206,17 +206,17 @@ export const tranQuocTuan = {
 
 export const tranQuocToan = {
   id: 5,
-  ten: "TRẦN QUỐC TOẢN  ",
+  ten: "TRẦN QUỐC TOẢN",
   imgUrl: [
     "https://utfs.io/f/f1db7787-b5a5-4ff8-91ea-a78e60771887-5kpfgl.jpg",
     "https://utfs.io/f/cf8dbee9-c472-4460-95d5-7146c1701893-tcsz79.jpg",
   ],
   ngaysinh: "1267 - 1285  ",
-  thongtinchung: ["Kháng chiến: (chống) quân Mông Nguyên    "],
+  thongtinchung: ["Kháng chiến: (chống) quân Mông Nguyên"],
   vitri: [
     "Tước hiệu: Hoài Văn Hầu    ",
     "Tông thất nhà Trần    ",
-    "tôn thất hoàng gia Đại   ",
+    "Tôn thất hoàng gia Đại   ",
     "Việt thời Trần   ",
   ],
   ditich: ["Bến Bình Than   "],
@@ -256,23 +256,23 @@ export const quangTrung = {
     "Triều đại: Nhà Tây Sơn  ",
     "Kháng chiến: (chống) quân Xiêm 1784-1785, quân Thanh 1788-1789  ",
   ],
-  vitri: ["nhà chính trị    ", "nhà quân sự    ", "Hoàng đế nhà Tây Sơn     "],
+  vitri: ["Nhà chính trị    ", "Nhà quân sự    ", "Hoàng đế nhà Tây Sơn     "],
 
   donggop: [
     {
       nam: "1",
       noidung:
-        "Lãnh đạo của cuộc khởi nghĩa Tây Sơn chấm dứt cuộc nội chiến Trịnh – Nguyễn phân tranh giữa hai tập đoàn phong kiến Trịnh ở phía bắc và Nguyễn ở phía nam. Bước đầu thống nhất đất nước về mặt lãnh thổ        ",
+        "Lãnh đạo của cuộc khởi nghĩa Tây Sơn chấm dứt cuộc nội chiến Trịnh – Nguyễn phân tranh giữa hai tập đoàn phong kiến Trịnh ở phía bắc và Nguyễn ở phía nam. Bước đầu thống nhất đất nước về mặt lãnh thổ",
     },
     {
       nam: "2",
       noidung:
-        "Đánh bại các cuộc xâm lược Đại Việt của Xiêm La từ phía nam, của Đại Thanh từ phía bắc.        ",
+        "Đánh bại các cuộc xâm lược Đại Việt của Xiêm La từ phía nam, của Đại Thanh từ phía bắc",
     },
     {
       nam: "3",
       noidung:
-        "Xây dựng vương triều Tây Sơn với nhiều chính sách tiến bộ.        ",
+        "Xây dựng vương triều Tây Sơn với nhiều chính sách tiến bộ",
     },
   ],
   caunoinoitieng: [
